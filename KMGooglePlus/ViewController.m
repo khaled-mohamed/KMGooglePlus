@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <GooglePlus/GooglePlus.h>
 #import <GoogleOpenSource/GoogleOpenSource.h>
 
-@interface ViewController ()
+@interface ViewController ()<GPPSignInDelegate>
 
 @end
 
@@ -17,12 +18,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    GPPSignIn *signIn = [GPPSignIn sharedInstance];
+    signIn.shouldFetchGooglePlusUser = YES;
+    //signIn.shouldFetchGoogleUserEmail = YES;  // Uncomment to get the user's email
+    
+    // You previously set kClientId in the "Initialize the Google+ client" step
+    signIn.clientID = @"ClientID";
+    
+    // Uncomment one of these two statements for the scope you chose in the previous step
+    signIn.scopes = @[ kGTLAuthScopePlusLogin ];  // "https://www.googleapis.com/auth/plus.login" scope
+    //signIn.scopes = @[ @"profile" ];            // "profile" scope
+    
+    // Optional: declare signIn.actions, see "app activities"
+    signIn.delegate = self;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void)didDisconnectWithError:(NSError *)error
+{
+    
+}
+- (void)finishedWithAuth: (GTMOAuth2Authentication *)auth
+                   error: (NSError *) error {
+    NSLog(@"Received error %@ and auth object %@",error, auth);
 }
 
 - (IBAction) didTapShare: (id)sender {
@@ -33,7 +55,7 @@
     // is generated from the page at the specified URL location.
     [shareBuilder setURLToShare:[NSURL URLWithString:@"https://www.example.com/restaurant/sf/1234567/"]];
     
-    [shareBuilder setPrefillText:@"I made reservations!"]
+    [shareBuilder setPrefillText:@"I made reservations!"];
     
     // This line passes the string "rest=1234567" to your native application
     // if somebody opens the link on a supported mobile device
