@@ -14,6 +14,20 @@
 		E128F9891A83B0F0009123FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E128F9881A83B0F0009123FD /* Images.xcassets */; };
 		E128F98C1A83B0F0009123FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E128F98A1A83B0F0009123FD /* LaunchScreen.xib */; };
 		E128F9981A83B0F0009123FD /* KMGooglePlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E128F9971A83B0F0009123FD /* KMGooglePlusTests.m */; };
+		E128F9A41A83B1BD009123FD /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9A11A83B1BD009123FD /* GoogleOpenSource.framework */; };
+		E128F9A51A83B1BD009123FD /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E128F9A21A83B1BD009123FD /* GooglePlus.bundle */; };
+		E128F9A61A83B1BD009123FD /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9A31A83B1BD009123FD /* GooglePlus.framework */; };
+		E128F9A81A83B1D5009123FD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9A71A83B1D5009123FD /* AddressBook.framework */; };
+		E128F9AA1A83B1DD009123FD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9A91A83B1DD009123FD /* AssetsLibrary.framework */; };
+		E128F9AC1A83B1E4009123FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9AB1A83B1E4009123FD /* Foundation.framework */; };
+		E128F9AE1A83B1EC009123FD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9AD1A83B1EC009123FD /* CoreLocation.framework */; };
+		E128F9B01A83B1F4009123FD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9AF1A83B1F4009123FD /* CoreMotion.framework */; };
+		E128F9B21A83B1FC009123FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9B11A83B1FC009123FD /* CoreGraphics.framework */; };
+		E128F9B41A83B204009123FD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9B31A83B204009123FD /* CoreText.framework */; };
+		E128F9B61A83B20A009123FD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9B51A83B20A009123FD /* MediaPlayer.framework */; };
+		E128F9B81A83B214009123FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9B71A83B214009123FD /* Security.framework */; };
+		E128F9BA1A83B21B009123FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9B91A83B21B009123FD /* SystemConfiguration.framework */; };
+		E128F9BC1A83B220009123FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9BB1A83B220009123FD /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,20 @@
 		E128F9911A83B0F0009123FD /* KMGooglePlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMGooglePlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E128F9961A83B0F0009123FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E128F9971A83B0F0009123FD /* KMGooglePlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMGooglePlusTests.m; sourceTree = "<group>"; };
+		E128F9A11A83B1BD009123FD /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		E128F9A21A83B1BD009123FD /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		E128F9A31A83B1BD009123FD /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		E128F9A71A83B1D5009123FD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E128F9A91A83B1DD009123FD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E128F9AB1A83B1E4009123FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E128F9AD1A83B1EC009123FD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E128F9AF1A83B1F4009123FD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E128F9B11A83B1FC009123FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E128F9B31A83B204009123FD /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E128F9B51A83B20A009123FD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E128F9B71A83B214009123FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E128F9B91A83B21B009123FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E128F9BB1A83B220009123FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E128F9BC1A83B220009123FD /* UIKit.framework in Frameworks */,
+				E128F9BA1A83B21B009123FD /* SystemConfiguration.framework in Frameworks */,
+				E128F9B81A83B214009123FD /* Security.framework in Frameworks */,
+				E128F9B61A83B20A009123FD /* MediaPlayer.framework in Frameworks */,
+				E128F9B41A83B204009123FD /* CoreText.framework in Frameworks */,
+				E128F9B21A83B1FC009123FD /* CoreGraphics.framework in Frameworks */,
+				E128F9B01A83B1F4009123FD /* CoreMotion.framework in Frameworks */,
+				E128F9AE1A83B1EC009123FD /* CoreLocation.framework in Frameworks */,
+				E128F9AC1A83B1E4009123FD /* Foundation.framework in Frameworks */,
+				E128F9AA1A83B1DD009123FD /* AssetsLibrary.framework in Frameworks */,
+				E128F9A81A83B1D5009123FD /* AddressBook.framework in Frameworks */,
+				E128F9A41A83B1BD009123FD /* GoogleOpenSource.framework in Frameworks */,
+				E128F9A61A83B1BD009123FD /* GooglePlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,17 @@
 		E128F96F1A83B0EF009123FD = {
 			isa = PBXGroup;
 			children = (
+				E128F9BB1A83B220009123FD /* UIKit.framework */,
+				E128F9B91A83B21B009123FD /* SystemConfiguration.framework */,
+				E128F9B71A83B214009123FD /* Security.framework */,
+				E128F9B51A83B20A009123FD /* MediaPlayer.framework */,
+				E128F9B31A83B204009123FD /* CoreText.framework */,
+				E128F9B11A83B1FC009123FD /* CoreGraphics.framework */,
+				E128F9AF1A83B1F4009123FD /* CoreMotion.framework */,
+				E128F9AD1A83B1EC009123FD /* CoreLocation.framework */,
+				E128F9AB1A83B1E4009123FD /* Foundation.framework */,
+				E128F9A91A83B1DD009123FD /* AssetsLibrary.framework */,
+				E128F9A71A83B1D5009123FD /* AddressBook.framework */,
 				E128F97A1A83B0EF009123FD /* KMGooglePlus */,
 				E128F9941A83B0F0009123FD /* KMGooglePlusTests */,
 				E128F9791A83B0EF009123FD /* Products */,
@@ -96,6 +148,9 @@
 		E128F97B1A83B0EF009123FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E128F9A11A83B1BD009123FD /* GoogleOpenSource.framework */,
+				E128F9A21A83B1BD009123FD /* GooglePlus.bundle */,
+				E128F9A31A83B1BD009123FD /* GooglePlus.framework */,
 				E128F97C1A83B0EF009123FD /* Info.plist */,
 				E128F97D1A83B0EF009123FD /* main.m */,
 			);
@@ -201,6 +256,7 @@
 			files = (
 				E128F9871A83B0F0009123FD /* Main.storyboard in Resources */,
 				E128F98C1A83B0F0009123FD /* LaunchScreen.xib in Resources */,
+				E128F9A51A83B1BD009123FD /* GooglePlus.bundle in Resources */,
 				E128F9891A83B0F0009123FD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +399,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KMGooglePlus",
+				);
 				INFOPLIST_FILE = KMGooglePlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +413,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KMGooglePlus",
+				);
 				INFOPLIST_FILE = KMGooglePlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
