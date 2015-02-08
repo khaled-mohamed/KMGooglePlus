@@ -30,10 +30,25 @@
                                     <action selector="didTapShare:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="E6k-i2-vCD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmE-jb-i4u">
+                                <rect key="frame" x="201" y="121" width="199" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="BNb-kq-iAm"/>
+                                    <constraint firstAttribute="height" constant="34" id="lbm-WH-IPy"/>
+                                </constraints>
+                                <state key="normal" title="GooglePlus">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="41T-nt-wl2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="VmE-jb-i4u" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="121" id="MQg-gB-UDs"/>
                             <constraint firstAttribute="centerY" secondItem="aTz-gq-P5o" secondAttribute="centerY" id="axL-1U-uUb"/>
+                            <constraint firstAttribute="centerX" secondItem="VmE-jb-i4u" secondAttribute="centerX" id="mNy-Vd-vMU"/>
                             <constraint firstAttribute="centerX" secondItem="aTz-gq-P5o" secondAttribute="centerX" id="wKP-dJ-yug"/>
                         </constraints>
                     </view>

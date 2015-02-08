@@ -28,6 +28,7 @@
 		E128F9B81A83B214009123FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9B71A83B214009123FD /* Security.framework */; };
 		E128F9BA1A83B21B009123FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9B91A83B21B009123FD /* SystemConfiguration.framework */; };
 		E128F9BC1A83B220009123FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E128F9BB1A83B220009123FD /* UIKit.framework */; };
+		E14EE8081A879D2D002A2459 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = E14EE8071A879D2D002A2459 /* circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		E128F9B71A83B214009123FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E128F9B91A83B21B009123FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E128F9BB1A83B220009123FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E14EE8071A879D2D002A2459 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				E128F9851A83B0F0009123FD /* Main.storyboard */,
 				E128F9881A83B0F0009123FD /* Images.xcassets */,
 				E128F98A1A83B0F0009123FD /* LaunchScreen.xib */,
+				E14EE8071A879D2D002A2459 /* circle.png */,
 				E128F97B1A83B0EF009123FD /* Supporting Files */,
 			);
 			path = KMGooglePlus;
@@ -256,6 +259,7 @@
 			files = (
 				E128F9871A83B0F0009123FD /* Main.storyboard in Resources */,
 				E128F98C1A83B0F0009123FD /* LaunchScreen.xib in Resources */,
+				E14EE8081A879D2D002A2459 /* circle.png in Resources */,
 				E128F9A51A83B1BD009123FD /* GooglePlus.bundle in Resources */,
 				E128F9891A83B0F0009123FD /* Images.xcassets in Resources */,
 			);
@@ -405,6 +409,7 @@
 				);
 				INFOPLIST_FILE = KMGooglePlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -419,6 +424,7 @@
 				);
 				INFOPLIST_FILE = KMGooglePlus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -476,6 +482,7 @@
 				E128F99D1A83B0F0009123FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E128F99E1A83B0F0009123FD /* Build configuration list for PBXNativeTarget "KMGooglePlusTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				E128F9A01A83B0F0009123FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
